@@ -1,10 +1,17 @@
 package com.adamwesterman.core;
 
+import java.util.ArrayList;
+
 public class APIHandler {
 	private String key = "";
 	private String baseURL = "";
 	
 	public APIHandler() {
-		// do some stuff
+		
+	}
+	
+	protected String buildURL(ArrayList<APIParameter> parameters) {
+		
+		return "";
 	}
 }
