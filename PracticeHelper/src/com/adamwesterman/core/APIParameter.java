@@ -5,7 +5,6 @@ public class APIParameter {
 	private String value;
 	
 	public APIParameter(String key, String value) {
-		super();
 		this.key = key;
 		this.value = value;
 	}
